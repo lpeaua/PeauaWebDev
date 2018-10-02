@@ -3,15 +3,30 @@
 <head>
     <title>transitions</title>
     <link rel="stylesheet" href="style-trans.css">
-
+<script>
+window.onload = function() {
+    var context = new AudioContext();
+}
+</script>
 </head>
-<body>
-<audio autoplay loop>
-  <source src="https://docs.google.com/uc?export=download&id=1yryFRPypn5SwIvJ2Oeht8IhCEMCthCsn" type="audio/mp3" >     
+<body>  
+
+<iframe src="https://dl.dropbox.com/s/7nqfpe5n0df6vg7/ShutInFairyFounatin.mp3?dl=0" allow="autoplay" style="display:none" id="iframeAudio">
+</iframe>       
+
+<audio autoplay loop id="playAudio">
+  <source src="https://dl.dropbox.com/s/7nqfpe5n0df6vg7/ShutInFairyFounatin.mp3?dl=0" type="audio/mp3" >     
 Your browser does not support the audio element.    
 </audio>
+
 <script> 
-  document.getElementById('vid').play(); 
+        var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+        if(!isChrome){
+          $('#iframeAudio').remove()
+        }
+        else{
+         $('#playAudio').remove() //just to make sure that it will not have 2x audio in the background 
+        } 
 </script> 
 
 
