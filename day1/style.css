@@ -2,7 +2,7 @@ body {
 
   background-color: blue;
   animation-name: example;
-  animation-duration: 5s;
+  animation-duration: 10s;
   animation-delay: 2s;
   animation-iteration-count: infinite;
 }
@@ -13,4 +13,9 @@ body {
   50%  {background-color: red;}
   75%  {background-color: yellow;}
   100% {background-color: blue;}
+}
+
+audio {
+ 
+
 }
