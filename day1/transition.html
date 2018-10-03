@@ -9,13 +9,20 @@ window.onload = function() {
 }
 </script>
 <script>
+	$(document).ready(function () {
+	
 	function randomColor() {
-        return '#' + Math.random().toString(16).slice(2, 8);
-    }
+		return '#' + Math.random().toString(16).slice(2, 8);
+	};
+
+	$("#button").on("click", function () {
+		$('body').css('background', randomColor());
+	});
+});
 </script>
 </head>
 <body> 
-<input type="button" onclick="randomColor()" class="button" value="Click Me!!">
+<input id="button" type="button" onclick="randomColor()" class="button" value="Click Me!!">
 <iframe src="https://dl.dropbox.com/s/7nqfpe5n0df6vg7/ShutInFairyFounatin.mp3?dl=0" allow="autoplay" style="display:none" id="iframeAudio">
 </iframe>       
 
