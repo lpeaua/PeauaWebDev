@@ -8,9 +8,14 @@ window.onload = function() {
     var context = new AudioContext();
 }
 </script>
+<script>
+	function randomColor() {
+        return '#' + Math.random().toString(16).slice(2, 8);
+    }
+</script>
 </head>
-<body>  
-<button class="button">PRESS ME!!</button>
+<body> 
+<input type="button" onclick="randomColor()" class="button" value="Click Me!!">
 <iframe src="https://dl.dropbox.com/s/7nqfpe5n0df6vg7/ShutInFairyFounatin.mp3?dl=0" allow="autoplay" style="display:none" id="iframeAudio">
 </iframe>       
 
