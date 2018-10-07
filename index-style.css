@@ -15,7 +15,7 @@ hr {
 
 .header {
 
-    padding: 40px; /* some padding */
+    padding: 35px; /* some padding */
 
     border-radius: 5px;
 
@@ -104,6 +104,19 @@ ul#horizontal-list li {
 
 .main h1 {
    font-size: 240%;
+}
+
+.main ul {
+    padding-left: 100px;
+    padding-right: 50px;
+
+}
+
+.main li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+
 }
 
 .footer {
