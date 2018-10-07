@@ -5,6 +5,10 @@
     
 }
 
+.img {
+    border-radius: 10px
+}
+
 .header {
 
     padding: 40px; /* some padding */
@@ -33,13 +37,13 @@
   display: table;
   margin: 0 auto;
   background-color: transparent;
-  position: fixed;
 }
 
 .table {
     display: table;
     align-content: center;
     margin: 0 auto;
+    
 }
 
 ul#horizontal-list {
