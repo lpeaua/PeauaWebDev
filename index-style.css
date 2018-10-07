@@ -5,6 +5,10 @@
     
 }
 
+hr {
+    width: 200px;
+}
+
 #my-photo {
     border-radius: 10px
 }
@@ -61,8 +65,8 @@ ul#horizontal-list li {
 
 .row {
 
-   display: flex;
-   flex-wrap: wrap;
+    align-content: center;
+   
 
 
 
@@ -75,8 +79,7 @@ ul#horizontal-list li {
 /* Sidebar/left column */
 .side {
 
-   flex: 20%; /* Set the width of the sidbar */
-
+   
    background-color: #f1f1f1; /* Grey background color */
 
    padding: 20px; /* Some padding */
@@ -85,17 +88,17 @@ ul#horizontal-list li {
 
 /* Main column */
 .main {
-
-   flex: 80%; /* Width of the main column */
-
    background-color: white; /* White background color */
 
    padding: 20px; /* Some padding */
+
+   align-content: center;
 
 }
 
 .main h3 {
    font-size: 180%;
+   text-align: center;
 
 }
 
