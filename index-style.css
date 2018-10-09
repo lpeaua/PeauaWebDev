@@ -5,6 +5,10 @@
     
 }
 
+.icon-link:hover {
+    transform: scale(1.5);
+}
+
 hr {
     width: 200px;
 }
