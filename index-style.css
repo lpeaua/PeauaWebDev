@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=KoHo|Roboto');
 
 .icon-link {
-    width: 30px;
+    width: 35px;
     
 }
 
@@ -21,6 +21,8 @@ hr {
     font-size: 35px;
     font-family: 'KoHo', sans-serif;
     color: white;
+    font-stretch: expanded;
+
 }
 
 .navBarWrapper {
@@ -39,20 +41,42 @@ hr {
     float: right;
 }
 
-.top bar {
-    margin: 8px;
-}
-
 .bar {
-    height: 8.02%;
+    height: 75px;
     overflow: auto;
 }
 
 .bar li {
     display: inline-block;
-    padding-right: 17px;
+    padding-right: 26px;
     margin-bottom: -12px;
 }
+
+#navbar {
+    display: flex;
+    margin: 0 auto;
+    background-color: transparent;
+    float: right;
+  }
+  
+  .table {
+      display: table;
+      align-content: center;
+      margin: 0 auto;
+      
+  }
+  
+  ul#horizontal-list {
+      width: 335px;
+      list-style: none;
+      padding-top: 1px;
+  }
+  
+  ul#horizontal-list li {
+      display: inline;
+      padding: 10px;
+  }
+  
 
 /* Column container*/
 
@@ -98,6 +122,11 @@ hr {
    border-radius: 10px;
 
    color: #A9A9A9;
+
+   border-color: #A9A9A9;
+   border-style: solid;
+   margin-top: 2px;
+   margin-bottom: 2px;
 
 }
 
