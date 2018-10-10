@@ -25,6 +25,11 @@ hr {
 
 }
 
+.subtitle {
+    color: white;
+    font-size: 20px;
+}
+
 .navBarWrapper {
     z-index: 1;
     background-color: #1abc9c; 
