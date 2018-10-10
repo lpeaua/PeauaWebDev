@@ -17,60 +17,49 @@ hr {
     border-radius: 10px
 }
 
-.header {
-
-    padding: 35px; /* some padding */
-
-    border-radius: 5px;
-
-    text-align: center; /* center the text */
-
-    background: #1abc9c; /* green background */
-
-    color: white; /* white text color */
-
-}
-
-.header h1 {
-    font-family: 'Koho', sans-serif;
-    font-size: 55px;
-}
-.header h3 {
+.title {
+    font-size: 35px;
     font-family: 'KoHo', sans-serif;
+    color: white;
 }
 
-/* Style the top nav bar */
-
-#navbar {
-  display: table;
-  margin: 0 auto;
-  background-color: transparent;
+.navBarWrapper {
+    z-index: 1;
+    background-color: #1abc9c; 
+    margin-bottom: 3px;
+    border-radius: 10px;
+    padding-right: 10px;
 }
 
-.table {
-    display: table;
-    align-content: center;
-    margin: 0 auto;
-    
+.left {
+    float: left;
 }
 
-ul#horizontal-list {
-    width: 325px;
-    list-style: none;
-    padding-top: 10px;
+.right {
+    float: right;
 }
 
-ul#horizontal-list li {
-    display: inline;
-    padding: 20px;
+.top bar {
+    margin: 8px;
 }
 
+.bar {
+    height: 8.02%;
+    overflow: auto;
+}
+
+.bar li {
+    display: inline-block;
+    padding-right: 17px;
+    margin-bottom: -12px;
+}
 
 /* Column container*/
 
 .row {
 
     align-content: center;
+
    
 
 
@@ -92,6 +81,9 @@ ul#horizontal-list li {
    border-radius: 10px;
 
    color: white;
+
+   padding-bottom: 20px;
+
 
 }
 
