@@ -39,3 +39,99 @@ body {
 }
 
 #button:focus {outline:0;}
+
+.icon-link {
+  width: 35px;
+  
+}
+
+.icon-link:hover {
+  transform: scale(1.5);
+}
+
+hr {
+  width: 200px;
+}
+
+#my-photo {
+  border-radius: 10px
+}
+
+.title {
+  font-size: 35px;
+  font-family: 'KoHo', sans-serif;
+  color: white;
+  font-stretch: expanded;
+
+}
+
+.subtitle {
+  color: white;
+  font-size: 20px;
+}
+
+.navBarWrapper {
+  z-index: 1;
+  background-color: #204558; 
+  margin-bottom: 3px;
+  border-radius: 10px;
+  padding-right: 10px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.bar {
+  height: 75px;
+  overflow: auto;
+}
+
+.bar li {
+  display: inline-block;
+  padding-right: 26px;
+  margin-bottom: -12px;
+}
+
+#navbar {
+  display: flex;
+  margin: 0 auto;
+  background-color: transparent;
+  float: right;
+}
+
+.table {
+    display: table;
+    align-content: center;
+    margin: 0 auto;
+    
+}
+
+ul#horizontal-list {
+    width: 335px;
+    list-style: none;
+    padding-top: 1px;
+}
+
+ul#horizontal-list li {
+    display: inline;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.footer {
+  padding: 15px;
+  text-align: center;
+  background: #204558;
+  border-radius: 10px;
+  margin-top: 45%;
+
+}
+
+.footer h2 {
+  color: white;
+}
