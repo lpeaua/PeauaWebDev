@@ -8,6 +8,13 @@ document.getElementById("button").onclick = function() {
   index = (index + 1) % colors.length;             // increment index to point to the next color (if it goes beyond the length of the coices array get it back to 0 using the modulo %)
 }
 
+function playAudio(){
+    var audio1 = document.getElementById('audio1');
+    var audio2 = document.getElementById('audio2');
+    audio1.play();
+    audio2.play();
+}
+
 // transition audio files
 
 /* var a = 1;
