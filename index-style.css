@@ -140,6 +140,10 @@ hr {
 
 }
 
+.main body {
+  width: 500px;
+}
+
 .main h3 {
    font-size: 180%;
    text-align: center;
