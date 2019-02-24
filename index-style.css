@@ -16,6 +16,7 @@ hr {
 #my-photo img {
     border-radius: 100px;
     height: 200px;
+    float: right;
 
 }
 
