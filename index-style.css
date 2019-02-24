@@ -13,8 +13,11 @@ hr {
     width: 200px;
 }
 
-#my-photo {
-    border-radius: 15px
+#my-photo img {
+    border-radius: 15px;
+    height: 600px;
+    width: 350px;
+
 }
 
 .title {
