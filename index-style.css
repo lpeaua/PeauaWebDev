@@ -28,6 +28,10 @@ hr {
 
 }
 
+body {
+  width: 700;
+}
+
 .subtitle {
     color: white;
     font-size: 20px;
@@ -138,10 +142,6 @@ hr {
    margin-bottom: 2px;
    border-width: 1px;
 
-}
-
-.main body {
-  width: 500px;
 }
 
 .main h3 {
