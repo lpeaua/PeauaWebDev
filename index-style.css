@@ -120,6 +120,10 @@ hr {
 
 }
 
+.side h1 {
+  margin-left: 40%;
+}
+
 /* Main column */
 .main {
    background-color: white; /* White background color */
