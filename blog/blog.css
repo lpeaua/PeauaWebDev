@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=KoHo|Roboto');
 
+body {
+  background-color: #eae8e3;
+}
+
 .icon-link {
     width: 35px;
     
