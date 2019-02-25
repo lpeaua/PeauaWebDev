@@ -168,12 +168,12 @@ hr {
    background: #204558;
    border-radius: 10px;
    width: 950px;
-
+   box-shadow: 10px 10px 5px grey;
    margin-left: 17%;
 
 }
 
 .footer h2 {
    color: white;
-   box-shadow: 10px 10px 5px grey;
+   
 }
