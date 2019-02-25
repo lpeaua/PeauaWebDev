@@ -39,6 +39,9 @@ hr {
     margin-bottom: 3px;
     border-radius: 10px;
     padding-right: 10px;
+    width: 1037px;
+
+    margin-left: 13%;
 }
 
 .left {
@@ -116,6 +119,9 @@ hr {
    color: #2C2B3B;
 
    padding-bottom: 20px;
+   width: 1050px;
+
+   margin-left: 13%;
 
 
 }
@@ -138,6 +144,9 @@ hr {
    margin-top: 2px;
    margin-bottom: 2px;
    border-width: 1px;
+   width: 1037px;
+
+   margin-left: 13%;
 
 }
 
@@ -174,6 +183,9 @@ hr {
    text-align: center;
    background: #204558;
    border-radius: 10px;
+   width: 1037px;
+
+   margin-left: 13%;
 
 }
 
