@@ -150,7 +150,7 @@ hr {
    border-style: solid;*/
    margin-top: 2px;
    margin-bottom: 2px;
-   border-width: 1px;
+   /*border-width: 1px;*/
    width: 1037px;
    box-shadow: 10px 10px 5px grey;
    margin-left: 13%;
