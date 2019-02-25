@@ -17,13 +17,6 @@ hr {
     width: 200px;
 }
 
-#my-photo img {
-    border-radius: 100px;
-    height: 200px;
-    margin-left: 40%;
-    box-shadow: 10px 10px 5px grey;
-
-}
 
 .title {
     font-size: 35px;
