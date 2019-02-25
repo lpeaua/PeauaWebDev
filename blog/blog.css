@@ -192,12 +192,12 @@ hr {
    text-align: center;
    background: #204558;
    border-radius: 10px;
+   width: 1037px;
+
+   margin-left: 13%;
 
 }
 
 .footer h2 {
    color: white;
-   width: 1037px;
-
-   margin-left: 13%;
 }
