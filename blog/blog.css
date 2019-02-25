@@ -122,7 +122,9 @@ hr {
 
 .side h1 {
 
-  margin-left: 40%; 
+  margin-left: 40%;
+
+  font-size: 10px; 
 
 }
 
