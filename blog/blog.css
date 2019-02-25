@@ -40,7 +40,7 @@ hr {
     border-radius: 10px;
     padding-right: 10px;
     width: 950px;
-
+    box-shadow: 10px 10px 5px grey;
     margin-left: 17%;
 }
 
@@ -123,7 +123,7 @@ hr {
    width: 1050px;
 
    margin-left: 13%;
-
+   box-shadow: 10px 10px 5px grey;
 
 }
 
@@ -154,7 +154,7 @@ hr {
    margin-bottom: 2px;
    border-width: 1px;
    width: 1037px;
-
+   box-shadow: 10px 10px 5px grey;
    margin-left: 13%;
 
 }
@@ -193,7 +193,7 @@ hr {
    background: #204558;
    border-radius: 10px;
    width: 950px;
-
+   box-shadow: 10px 10px 5px grey;
    margin-left: 17%;
 
 }
