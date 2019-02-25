@@ -32,7 +32,6 @@ hr {
 .subtitle {
     color: white;
     font-size: 20px;
-    margin-left: 40%;
 }
 
 .navBarWrapper {
@@ -129,6 +128,9 @@ hr {
 
 }
 
+.side h1 {
+  margin-left: 40%;
+}
 
 /* Main column */
 .main {
