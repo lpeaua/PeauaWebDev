@@ -15,32 +15,34 @@ let openDoor2;
 let openDoor3;
 
 let randomChoreDoorGenerator = () => {
-  let choreDoor = Math.floor(Math.random(* numClosedDoors));
+  let choreDoor = Math.floor(Math.random()* numClosedDoors);
   if (choreDoor === 0) {
-    let openDoor1 = botDoorPath;
-    let openDoor2 = 
-    let openDoor3
+    openDoor1 = botDoorPath;
+    openDoor2 = beachDoorPath;
+    openDoor3 = spaceDoorPath;
   } else if (choreDoor === 1) {
-    let openDoor = beachDoorPath;
-    let openDoor2;
-    let openDoor3;
+    openDoor1 = beachDoorPath;
+    openDoor2 = spaceDoorPath;
+    openDoor3 = botDoorPath;
   } else if (choreDoor === 3) {
-    let openDoor = spaceDoorPath;
-    let openDoor2;
-    let openDoor3;
+    openDoor1 = spaceDoorPath;
+    openDoor2 = botDoorPath;
+    openDoor3 = beachDoorPath;
   }
 };
 
 doorImage1.onclick = () => {
-  doorImage1.src = botDoorPath;
+  doorImage1.src = openDoor1;
 };
 
 doorImage2.onclick = () => {
-  doorImage2.src = beachDoorPath;
+  doorImage2.src = openDoor2;
 };
 
 doorImage3.onclick = () => {
-  doorImage3.src = spaceDoorPath;
+  doorImage3.src = openDoor3;
 };
+
+randomChoreDoorGenerator();
 
 
