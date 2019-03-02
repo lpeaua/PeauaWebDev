@@ -18,10 +18,10 @@ body {
 
 .title-row {
   display: flex;
-  margin-top: 42px;
-  margin-bottom: 21px;
+  margin-top: 2px;
+  margin-bottom: 2px;
   margin-left: 45%;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .instructions-title {
