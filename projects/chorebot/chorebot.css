@@ -23,10 +23,6 @@ body {
   text-align: center;
 }
 
-.title-row p {
-  margin-left: 35px;
-}
-
 .instructions-title {
   font-size: 18px;
   color: #02FFFF;
@@ -36,7 +32,6 @@ body {
 .instructions-row {
   margin: 0 auto;
   width: 400px;
-  text-align: center;
 }
 
 .instructions-number {
