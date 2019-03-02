@@ -98,8 +98,8 @@ const gameOver = (status) => {
     startButton.innerHTML = "You win! Play again?";
   } else {
     startButton.innerHTML = "Game over! Play again?";
-    currentlyPlaying = false;
   }
+  currentlyPlaying = false
 };
 
 startRound();
