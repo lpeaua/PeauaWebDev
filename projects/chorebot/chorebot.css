@@ -71,6 +71,20 @@ body {
   transform: scale(1.5);
 }
 
+.table {
+    display: table;
+    align-content: center;
+    margin: 0 auto;
+    
+}
+
+#navbar {
+  display: flex;
+  margin: 0 auto;
+  background-color: transparent;
+  float: right;
+}
+
 .footer {
    padding: 15px;
    position: absolute;
