@@ -34,10 +34,8 @@ const playDoor = door => {
   numClosedDoors--;
   if(numClosedDoors === 0) {
     gameOver('win');
-    //document.body.style.backgroundColor = 'red';
   } else if(isBot(door) === true) {
     gameOver('lose');
-   // document.body.style.backgroundColor = 'white';
   }
 };
 
@@ -97,9 +95,10 @@ startButton.onclick = () => {
 
 const gameOver = (status) => {
   if(status === 'win') {
-    startButton.innerHTML = "You win! Play again?"
+    startButton.innerHTML = "You win! Play again?";
   } else {
-    startButton.innerHTML = "Game over! Play again?"
+    startButton.innerHTML = "Game over! Play again?";
+    currentlyPlaying = false;
   }
 };
 
