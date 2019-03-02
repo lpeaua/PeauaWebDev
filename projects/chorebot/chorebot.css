@@ -62,6 +62,15 @@ body {
   cursor: pointer;
 }
 
+.icon-link {
+  width: 35px;
+  
+}
+
+.icon-link:hover {
+  transform: scale(1.5);
+}
+
 .footer {
    padding: 15px;
    position: absolute;
