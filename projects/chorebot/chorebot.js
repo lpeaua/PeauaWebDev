@@ -87,13 +87,13 @@ const startRound = () => {
   startButton.innerHTML = "Good Luck!"
   currentlyPlaying = true;
   randomChoreDoorGenerator();
-}
+};
 
 startButton.onclick = () => {
   if (!currentlyPlaying) {
-    startRound()
+    startRound();
   }    
-}
+};
 
 const gameOver = (status) => {
   if(status === 'win') {
@@ -103,6 +103,6 @@ const gameOver = (status) => {
   }
 };
 
-startRound()
+startRound();
 
 
