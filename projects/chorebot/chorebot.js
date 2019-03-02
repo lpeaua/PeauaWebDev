@@ -24,7 +24,7 @@ let randomChoreDoorGenerator = () => {
     openDoor1 = beachDoorPath;
     openDoor2 = spaceDoorPath;
     openDoor3 = botDoorPath;
-  } else if (choreDoor === 3) {
+  } else if (choreDoor === 2) {
     openDoor1 = spaceDoorPath;
     openDoor2 = botDoorPath;
     openDoor3 = beachDoorPath;

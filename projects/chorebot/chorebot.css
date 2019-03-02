@@ -23,6 +23,10 @@ body {
   text-align: center;
 }
 
+.title-row p {
+  margin-left: 15px;
+}
+
 .instructions-title {
   font-size: 18px;
   color: #02FFFF;
