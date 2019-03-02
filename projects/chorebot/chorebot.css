@@ -78,6 +78,18 @@ body {
     
 }
 
+ul#horizontal-list {
+    width: 335px;
+    list-style: none;
+    padding-top: 1px;
+}
+
+ul#horizontal-list li {
+    display: inline;
+    padding: 10px;
+    font-size: 15px;
+}
+
 #navbar {
   display: flex;
   margin: 0 auto;
