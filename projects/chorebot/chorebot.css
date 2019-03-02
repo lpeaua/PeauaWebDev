@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: #010165;
   margin: 0px;
 }
 
@@ -18,10 +18,10 @@ body {
 
 .title-row {
   display: flex;
-  margin-top: 2px;
-  margin-bottom: 2px;
+  margin-top: 42px;
+  margin-bottom: 21;
   margin-left: 45%;
-  /*text-align: center;*/
+  text-align: center
 }
 
 .instructions-title {
