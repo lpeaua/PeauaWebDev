@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+  
   <head>
     <title>Chore Door!</title>
     <link href="./chorebot.css" rel="stylesheet" type="text/css">
@@ -7,15 +8,18 @@
   </head>
 
   <body>
+    
     <div class="header">
       <img id="logo" src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/logo.svg">
     </div>
+    
     <div class="title-row">
       <img id="stars"
 src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/star.svg">
       <p class="instructions-title">Instructions</p>
       <img id="stars" src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/star.svg">
     </div>
+   
     <table class="instructions-row">
       <tr>
         <td class="instructions-number">1</td>
@@ -34,6 +38,7 @@ src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/star
         <td class="instructions-text">See if you can score a winning streak!</td>
       </tr>
     </table>
+    
     <div class="door-row">
       <img id="door1" class="door-frame" src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/closed_door.svg">
       <img id="door2" class="door-frame"
@@ -41,9 +46,22 @@ src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/clos
       <img id= "door3" class="door-frame"
 src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/closed_door.svg">
     </div>
+    
     <div id='start' class="start-row">
       Good luck!
     </div>
+
+    <table class="score-row">
+      <tr>
+        <th class="score-text">Current streak:</th>
+        <th class="score-text">Best streak:</th>
+      </tr>
+      <tr>
+        <th class="score-box" id="score-number"></th>
+        <th class="score-box" id="high-score-number"></th>
+      <tr>
+    </table>
+
     <div class="footer">
         <div class="navbar">
             <div class="table">
@@ -58,6 +76,8 @@ src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/clos
             </div>
           </div>
     </div>
+    
     <script type="text/javascript" src="./chorebot.js"></script>
+  
   </body>
 </html>

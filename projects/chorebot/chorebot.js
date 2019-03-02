@@ -102,6 +102,15 @@ const gameOver = (status) => {
   currentlyPlaying = false
 };
 
+const getYourScore = () => {
+  score++;
+  currentStreak.innerHTML = score;
+  if (score > highScore) {
+    highScore = score;
+    bestStreak.innerHTML = highScore;
+  }
+}
+
 startRound();
 
 
