@@ -154,14 +154,14 @@ hr {
    margin-left: 13%;
    box-shadow: 10px 10px 5px grey;
 
-   text-align: center;
 
 }
 
 #bio-body {
    font-size: 300%;
    font-family: 'KoHo', sans-serif;
-   width: 750px;
+   width: 8000px;
+   margin-left: 15%;
 
 }
 
