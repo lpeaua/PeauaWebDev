@@ -109,7 +109,7 @@ const getYourScore = () => {
     highScore = score;
     bestStreak.innerHTML = highScore;
   }
-}
+};
 
 startRound();
 
