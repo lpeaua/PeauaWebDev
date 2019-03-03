@@ -104,8 +104,11 @@ startButton.onclick = () => {
 const gameOver = (status) => {
   if(status === 'win') {
     startButton.innerHTML = "You win! Play again?";
+    getYourScore();
   } else {
     startButton.innerHTML = "Game over! Play again?";
+    score = 0;
+    currentStreak.innerHTML = score;
   }
   currentlyPlaying = false
 };
