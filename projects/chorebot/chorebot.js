@@ -20,6 +20,14 @@ let openDoor1;
 let openDoor2;
 let openDoor3;
 
+let score = 0;
+let highScore = 0;
+let currentStreak = document.getElementById('score-number');
+let bestStreak = document.getElementById('high-score-number');
+
+currentStreak.innerHTML = score;
+bestStreak.innerHTML = highScore;
+
 let startButton = document.getElementById('start');
 
 const isBot = door => {
