@@ -101,7 +101,7 @@ hr {
 
 
 
-/* Sidebar/left column */
+/* Title div*/
 .side {
 
    
@@ -124,7 +124,7 @@ hr {
 
 .side h1 {
 
-  margin-left: 40%;
+  margin-left: 20%;
 
   font-size: 40px; 
 
