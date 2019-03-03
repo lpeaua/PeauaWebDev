@@ -161,6 +161,11 @@ hr {
   margin-left: 100px;
 }
 
+.content-img1 {
+  width: 800px;
+  height: 500px;
+}
+
 .footer {
    padding: 15px;
    position: absolute;
