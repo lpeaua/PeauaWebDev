@@ -163,7 +163,8 @@ hr {
 
 .content-img1 {
   width: 800px;
-  height: 500px;
+  height: 400px;
+  margin-left: 100px;
 }
 
 .footer {
