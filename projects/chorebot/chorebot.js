@@ -64,6 +64,7 @@ const randomChoreDoorGenerator = () => {
   }
 };
 
+// event triggers
 doorImage1.onclick = () => {
   if(!isClicked(doorImage1) && currentlyPlaying) {
     doorImage1.src = openDoor1;
@@ -86,6 +87,7 @@ doorImage3.onclick = () => {
 };
 
 const startRound = () => {
+  // reset game by reset all values
   numClosedDoors = 3;
   doorImage1.src = closedDoorPath;
   doorImage2.src = closedDoorPath;
