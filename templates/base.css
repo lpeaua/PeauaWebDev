@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=KoHo|Roboto');
 
 body {
-  background-color: black;
+  background-color: #ededed;
 }
 
+/* navbar and header styling BEGINS */
 .icon-link {
     width: 35px;
     
