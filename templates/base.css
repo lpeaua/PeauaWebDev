@@ -94,15 +94,11 @@ hr {
 
     align-content: center;
 
-   
-
-
-
 }
 
 
 
-/* Create two unequal columns that sits next to each other */
+
 
 /* Sidebar/left column */
 .side {
@@ -167,24 +163,6 @@ hr {
    font-size: 240%;
 }
 
-.main ul {
-    padding-left: 100px;
-    padding-right: 50px;
-
-}
-
-.main li {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 20px;
-    color: #FF3A44;
-
-}
-
-.main a {
-    color: #FF3A44;
-}
-
 .footer {
    padding: 15px;
    position: absolute;
@@ -200,4 +178,3 @@ hr {
 .footer h2 {
    color: white;
 }
-
