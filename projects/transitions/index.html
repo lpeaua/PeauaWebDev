@@ -1,25 +1,17 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>transitions</title>
+    <title>Transitions</title>
     <link rel="stylesheet" href="style-trans.css">
-<script>
-window.onload = function() {
-    var context = new AudioContext();
-}
-</script>
 </head>
+
 <body> 
+
 <button id="button" onclick="playAudio()">Click Me!!</button>
+
 <audio loop id="audio1" src="../day1/jungle.mp3" type="audio/mp3" >Your browser does not support the audio element.</audio>
-<script src="../js/transition.js"></script>
-<script>
- function playAudio(){
-    var audio1 = document.getElementById('audio1');
-    var audio2 = document.getElementById('audio2');
-    audio1.play();
- }
-</script>
+
 <div class="footer">
     <div class="navbar">
         <div class="table">
@@ -31,8 +23,11 @@ window.onload = function() {
             <li><a href="https://github.com/lpeaua/PeauaWebDev"><img class="icon-link" src="https://dl.dropbox.com/s/fadpbt0e4c5sjgg/github%20%281%29.png?dl=0"></a></li>
             <li><a href="https://www.linkedin.com/in/lisiate-rich-peaua-004492125/"><img class="icon-link" src="https://dl.dropbox.com/s/1cfmzcw3h3pymja/linkedin-logo.png?dl=0"></a></li>
           </ul> 
+        
         </div>
       </div>
 </div>
+
+<script src="./transistions.js" type="text/javascript" charset="utf-8" async defer></script>
 </body>
 </html>
