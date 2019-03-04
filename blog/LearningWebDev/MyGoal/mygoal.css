@@ -101,7 +101,7 @@ hr {
 
 
 
-/* Title div*/
+/* Title div */
 .side {
 
    
@@ -125,11 +125,13 @@ hr {
 .side h1 {
 
   margin-left: 10%;
-
   font-size: 40px; 
 
 }
 
+.timestamp {
+  font-color: grey;
+}
 
 /* Main content area */
 .main {
