@@ -170,6 +170,10 @@ hr {
   font-size: 19px;
 }
 
+.content-title {
+  margin-left: 100px;
+}
+
 .footer {
    padding: 15px;
    position: absolute;
