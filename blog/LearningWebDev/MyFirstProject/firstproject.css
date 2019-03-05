@@ -133,21 +133,13 @@ hr {
 
 /* Main column */
 .main {
-   background-color: white; /* White background color */
-
-   padding: 20px; /* Some padding */
-
+   background-color: white;
+   padding: 20px;
    align-content: center;
-
    border-radius: 10px;
-
    color: #2C2B3B;
-
-   /*border-color: #2C2B3B;
-   border-style: solid;*/
    margin-top: 2px;
    margin-bottom: 2px;
-   /*border-width: 1px;*/
    width: 1037px;
    box-shadow: 10px 10px 5px grey;
    margin-left: 13%;
@@ -171,7 +163,7 @@ hr {
 
 .content-img1 {
   width: 800px;
-  height: 400px;
+  height: 500px;
   margin-left: 100px;
   font-size: 19px;
   border-radius: 150px;
