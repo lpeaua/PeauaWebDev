@@ -7,10 +7,16 @@ const blue = "blue";
 const green = "green";
 const yellow = "yellow";
 
-let changeColor = body => {
-	if (transitions === 'white')
+let changeColor = bodyColor => {
+	if (bodyColor === 'white') {
+		bodyColor = red;
+	} else if (bodyColor === 'red') {
+		bodyColor = blue;
+	}
 };
 
-clickMe.onclick = 
+clickMe.onclick = () => {
+	changeColor(transitions);
+}
 
 
