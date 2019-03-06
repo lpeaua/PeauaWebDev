@@ -1,14 +1,13 @@
-let transitions = document.body.style.backgroundColor;
+//let transitions = document.body.style.backgroundColor;
 let clickMe = document.querySelector('#button');
 
 
-const changeColor = bodyColor => {
-	bodyColor = "red"
+const changeColor = () => {
+	document.body.style.backgroundColor = "red";
 };
 
 clickMe.onclick = () => {
-	changeColor(transitions);
-	document.write(document.body.style.backgroundColor);
+	changeColor();
 };
 
 
