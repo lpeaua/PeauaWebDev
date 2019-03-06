@@ -3,11 +3,7 @@ let clickMe = document.querySelector('#button');
 
 
 const changeColor = bodyColor => {
-	if (bodyColor === 'white') {
-		bodyColor = "red";
-	} else if (bodyColor === 'red') {
-		bodyColor = "blue";
-	}
+	bodyColor = "red"
 };
 
 clickMe.onclick = () => {
