@@ -1,9 +1,9 @@
-let transitions = document.body.style.backgroundColor;
+let transitions = document.body;
 let clickMe = document.querySelector('#button');
 
 
 const changeColor = () => {
-	transitions = "red";
+	transitions.style.backgroundColor = "red";
 };
 
 clickMe.onclick = () => {
