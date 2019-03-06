@@ -6,6 +6,8 @@ const changeColor = () => {
 	transitions.style.backgroundColor = "red";
 	if (transitions.style.backgroundColor === "red") {
 		transitions.style.backgroundColor = "blue";
+	} else if (transitions.style.backgroundColor === "blue") {
+		transitions.style.backgroundColor = "green";
 	}
 };
 
