@@ -8,7 +8,7 @@ const changeColor = bodyColor => {
 
 clickMe.onclick = () => {
 	changeColor(transitions);
-	console.write(document.body.style.backgroundColor)
+	console.write(document.body.style.backgroundColor);
 };
 
 
