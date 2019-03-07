@@ -13,6 +13,7 @@ const increment = () => {
 const colorChange = count => {
 	if (count === 0){
 		transitions.style.backgroundColor = "white";
+		dropShadow.style.boxShadow = '10px 10px 5px grey';
 	} else if (count === 1){
 		transitions.style.backgroundColor = "red";
         dropShadow.style.boxShadow = '0 0 5px transparent';
