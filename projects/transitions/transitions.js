@@ -3,7 +3,7 @@ let clickMe = document.querySelector('#button');
 let counter = 0;
 
 const increment = () => {
-	counter ++;
+	counter += 1;
 	if (counter === 4) {
 		counter = 0;
 	}
@@ -24,5 +24,6 @@ const colorChange = count => {
 };
 
 clickMe.onclick = () => {
-	colorChange(increment());
+	increment();
+	colorChange(counter);
 };
