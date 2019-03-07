@@ -24,10 +24,5 @@ const colorChange = count => {
 };
 
 clickMe.onclick = () => {
-	changeColor();
-};
-
-
-const changeColor = () => {
-	colorChange(increment);
+	colorChange(increment());
 };
