@@ -4,7 +4,7 @@ let counter = 0;
 
 const increment = () => {
 	counter += 1;
-	if (counter === 4) {
+	if (counter === 6) {
 		counter = 0;
 	}
 };
@@ -18,8 +18,12 @@ const colorChange = count => {
 		transitions.style.backgroundColor = "blue";
 	} else if (count === 3){
 		transitions.style.backgroundColor = "green";
-	} else {
+	} else if (count === 4){
 		transitions.style.backgroundColor = "yellow";
+	} else if (count === 5){
+		transitions.style.backgroundColor = "purple";
+	} else {
+		transitions.style.backgroundColor = "orange"
 	}
 };
 
