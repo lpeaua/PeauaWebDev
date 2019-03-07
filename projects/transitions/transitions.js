@@ -4,7 +4,7 @@ let counter = 0;
 
 const increment = () => {
 	counter += 1;
-	if (counter === 7) {
+	if (counter === 6) {
 		counter = 0;
 	}
 };
