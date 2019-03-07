@@ -3,7 +3,7 @@ let clickMe = document.querySelector('#button');
 let counter = 0;
 
 const increment = () => {
-	counter ++ 1;
+	counter ++;
 	if (counter === 4) {
 		counter = 0;
 	}
