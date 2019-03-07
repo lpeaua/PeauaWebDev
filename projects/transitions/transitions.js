@@ -1,6 +1,6 @@
 let transitions = document.body;
 let clickMe = document.querySelector('#button');
-let dropShadow = document.querySelector('.footer')
+let dropShadow = document.querySelector('.footer');
 let counter = 0;
 
 const increment = () => {
@@ -15,7 +15,7 @@ const colorChange = count => {
 		transitions.style.backgroundColor = "white";
 	} else if (count === 1){
 		transitions.style.backgroundColor = "red";
-        dropShadow.style.boxShadow = '';
+        dropShadow.style.removeProperty('box-shadow');
 	} else if (count === 2){
 		transitions.style.backgroundColor = "blue";
 		dropShadow.style.boxShadow = '';
