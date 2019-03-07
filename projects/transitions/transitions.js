@@ -23,7 +23,7 @@ const colorChange = count => {
 	} else if (count === 5){
 		transitions.style.backgroundColor = "purple";
 	} else {
-		transitions.style.backgroundColor = "orange";
+		transitions.style.backgroundColor = "grey";
 	}
 };
 
