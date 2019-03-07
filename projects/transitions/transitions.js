@@ -19,16 +19,12 @@ const colorChange = count => {
         dropShadow.style.boxShadow = '0 0 5px transparent';
 	} else if (count === 2){
 		transitions.style.backgroundColor = "blue";
-		dropShadow.style.boxShadow = '0 0 5px transparent';
 	} else if (count === 3){
 		transitions.style.backgroundColor = "green";
-		dropShadow.style.boxShadow = '0 0 5px transparent';
 	} else if (count === 4){
 		transitions.style.backgroundColor = "yellow";
-		dropShadow.style.boxShadow = '0 0 5px transparent';
 	} else if (count === 5){
 		transitions.style.backgroundColor = "purple";
-		dropShadow.style.boxShadow = '0 0 5px transparent';
 	} else if (count > 5) {
 		transitions.style.backgroundColor = "grey";
 	}
