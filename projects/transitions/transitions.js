@@ -15,7 +15,7 @@ const colorChange = count => {
 		transitions.style.backgroundColor = "white";
 	} else if (count === 1){
 		transitions.style.backgroundColor = "red";
-        dropShadow.style.removeProperty('box-shadow');
+        dropShadow.style.backgroundColor = 'green';
 	} else if (count === 2){
 		transitions.style.backgroundColor = "blue";
 		dropShadow.style.boxShadow = '';
